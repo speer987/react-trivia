@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:600|Merriweather');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -93,6 +95,35 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+h1 {
+  color: #272932;
+  font-family: 'Eczar', serif;
+  font-weight: 700;
+  font-size: 43px;
+  padding: 0px;
+  margin: 0px;
+}
+
+subtitle {
+  font-family: "Eczar", serif;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  border: 2px solid #272932;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  font-family: "Eczar", sans-serif;
 }
 
 a {
