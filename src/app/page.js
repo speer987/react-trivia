@@ -1,13 +1,14 @@
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.title_card}>
-        <h1>Trivia Game</h1>
+        <h1>React Trivia</h1>
         <div className={styles.options}>
-          <div className={styles.button}>Start</div>
-          <div className={styles.button}>How to Play</div>
+          <Link href="/questions"><button>Start</button></Link>
+          <Link href="/manual"><button>How to Play</button></Link>
         </div>
       </div>
       <p className={styles.credit}>Background Image by <a href="https://www.freepik.com/free-vector/gradient-question-mark-pattern-design_27257316.htm#query=trivia&position=0&from_view=keyword&track=sph">Freepik</a></p>
