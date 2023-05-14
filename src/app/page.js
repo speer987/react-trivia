@@ -1,9 +1,10 @@
 import styles from './page.module.css'
+
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <div className={styles.title_card}>
         <h1>React Trivia</h1>
         <div className={styles.options}>

@@ -87,23 +87,26 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/question.jpg");
+  background-size: cover;
 }
 
-h1 {
+h1, h2, h3 {
   color: #272932;
   font-family: 'Eczar', serif;
   font-weight: 700;
-  font-size: 43px;
   padding: 0px;
   margin: 0px;
+}
+
+title {
+  font-size: 43px;
 }
 
 subtitle {
