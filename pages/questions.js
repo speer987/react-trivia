@@ -10,27 +10,21 @@ export default function Questions() {
                 <h3>Score: 0</h3>
             </div>
             <div className={styles.container}>
-                <div className={styles.card_container}>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
-                </div>
-                <div className={styles.card_container}>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
-                </div>
-                <div className={styles.card_container}>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
                     <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
-                </div>
             </div>
         </div>
     </main>
