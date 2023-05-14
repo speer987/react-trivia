@@ -9,24 +9,35 @@ export default function Questions() {
                 <h2>Pick a Question</h2>
                 <h3>Score: 0</h3>
             </div>
-            <div className={styles.container}>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 1</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 2</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 3</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 4</p>
-                    <p className={`${styles.title_card} ${styles.question_card}`}>Card 5</p>
+                <form className={styles.temp2}>
+                    <div className={styles.temp}>
+                        <h2 className={styles.center}>Category 1</h2>
+                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <button className={styles.fit}>Category 1 Medium Card</button>
+                        <button className={styles.fit}>Category 1 Easy Card</button>
+                    </div>
+                    <div className={styles.temp}>
+                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <button className={styles.fit}>Category 1 Medium Card</button>
+                        <button className={styles.fit}>Category 1 Easy Card</button>
+                    </div>
+                    <div className={styles.temp}>
+                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <button className={styles.fit}>Category 1 Medium Card</button>
+                        <button className={styles.fit}>Category 1 Easy Card</button>
+                    </div>
+                    <div className={styles.temp}>
+                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <button className={styles.fit}>Category 1 Medium Card</button>
+                        <button className={styles.fit}>Category 1 Easy Card</button>
+                    </div>
+                    <div className={styles.temp}>
+                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <button className={styles.fit}>Category 1 Medium Card</button>
+                        <button className={styles.fit}>Category 1 Easy Card</button>
+                    </div>
+                </form>
             </div>
-        </div>
     </main>
     )
 }
