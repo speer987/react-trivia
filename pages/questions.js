@@ -17,21 +17,25 @@ export default function Questions() {
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
                     <div className={styles.temp}>
+                        <h2 className={styles.center}>Category 2</h2>
                         <button className={styles.fit}>Category 1 Difficult Card</button>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
                     <div className={styles.temp}>
+                        <h2 className={styles.center}>Category 3</h2>
                         <button className={styles.fit}>Category 1 Difficult Card</button>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
                     <div className={styles.temp}>
+                        <h2 className={styles.center}>Category 4</h2>
                         <button className={styles.fit}>Category 1 Difficult Card</button>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
                     <div className={styles.temp}>
+                        <h2 className={styles.center}>Category 5</h2>
                         <button className={styles.fit}>Category 1 Difficult Card</button>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>

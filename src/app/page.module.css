@@ -34,6 +34,7 @@
   flex-direction: column;
   padding: 10px;
   width: 100vw;
+  height: 100vh;
 }
 
 .card_container {
@@ -52,16 +53,18 @@
 .temp {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .fit {
   width: auto;
+  height: 100%;
 }
 
 .temp2 {
   display: flex;
-  display: row;
   margin: 0px;
+  height: 100%;
 }
 
 /* Enable hover only on non-touch devices */
