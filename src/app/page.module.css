@@ -1,6 +1,5 @@
 .white_text {
   color: white;
-  font-family: 'Eczar', serif;
 }
 
 .credit {
@@ -65,6 +64,12 @@
   display: flex;
   margin: 0px;
   height: 100%;
+}
+
+.top_right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 /* Enable hover only on non-touch devices */
