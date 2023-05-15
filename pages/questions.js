@@ -2,8 +2,8 @@ import "src/app/globals.css"
 import styles from "src/app/page.module.css"
 import Link from "next/link"
 
-export default function Questions() {
-    return (
+export default function Questions(question_grid) {
+return (
     <main>
         <div className={styles.page}>
             <div className={`${styles.title_card} ${styles.title_wide}`}>
@@ -17,7 +17,7 @@ export default function Questions() {
                 <form className={styles.temp2}>
                     <div className={styles.temp}>
                         <h2 className={`${styles.center} ${styles.white_text}`}>Category 1</h2>
-                        <Link href="/question"><button>Category 1 Difficult Card</button></Link>
+                        <button type="button" onClick={console.log(question_grid)} className={styles.fit}>Category 1 Difficult Card</button>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
@@ -50,29 +50,3 @@ export default function Questions() {
     </main>
     )
 }
-
-{/* 
-                <container flex-dir: row>
-                    <container flex-dir : column>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                    </container>
-                    <container flex-dir : column>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                    </container>
-                    <container flex-dir : column>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                        <div>
-                    </container>
-                <container>
-                */}
