@@ -9,6 +9,23 @@
   color: white;
 }
 
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.max_width {
+  width: 100%;
+}
+
+.half_width {
+  width: 50%;
+}
+
+.margin {
+  margin: 150px;
+}
+
 .options {
   display: flex;
   flex-direction: row;
@@ -16,7 +33,6 @@
 
 .center {
   text-align: center;
-  outline: white 2px;
 }
 
 .title_card {

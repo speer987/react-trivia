@@ -97,7 +97,7 @@ main {
   background-size: cover;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   color: #272932;
   font-family: 'Eczar', serif;
   font-weight: 700;

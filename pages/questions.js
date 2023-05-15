@@ -17,7 +17,7 @@ export default function Questions() {
                 <form className={styles.temp2}>
                     <div className={styles.temp}>
                         <h2 className={`${styles.center} ${styles.white_text}`}>Category 1</h2>
-                        <button className={styles.fit}>Category 1 Difficult Card</button>
+                        <Link href="/question"><button>Category 1 Difficult Card</button></Link>
                         <button className={styles.fit}>Category 1 Medium Card</button>
                         <button className={styles.fit}>Category 1 Easy Card</button>
                     </div>
